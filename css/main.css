@@ -1,0 +1,299 @@
+/**{
+  box-sizing: border-box;
+}*/
+
+html,
+body{
+  font-family: "futura-pt", sans-serif;
+}
+
+
+/* Navigation */
+
+nav {
+  background-color: #1f2011;
+}
+
+.navbar{
+    top: 0;
+
+  }
+
+nav ul {
+
+}
+nav ul li a {
+  color: white;
+  display: inline-block;
+  padding: 0px 25px;
+  position: relative;
+
+}
+.navbar .nav,
+.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+ .navbar-inner {
+    text-align:center;
+}
+nav .container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.background {
+  position: fixed;
+  margin-top: 120px;
+  z-index: 0;
+}
+
+/* Parallax */
+
+.parallax {
+  background-color: #d9db56;
+  perspective: 100px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  margin-left: -1500px;
+  perspective-origin-x: 100%;
+}
+
+.parallax__layer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin-x: 100%;
+}
+
+.layer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.parallax__cover {
+  background-color: #005766;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 150px;
+  z-index: 1;
+}
+
+
+.parallax__layer__0 { transform: translateZ(-300px) scale(4); 
+  margin-top: 200px;} 
+.parallax__layer__1 { transform: translateZ(-200px) scale(3); } 
+.parallax__layer__2 { transform: translateZ(-180px) scale(2.75); } 
+.parallax__layer__3 { transform: translateZ(-150px) scale(2.5); } 
+.parallax__layer__4 { transform: translateZ(-100px) scale(2); } 
+.parallax__layer__5 { transform: translateZ(-50px) scale(1.5); } 
+.parallax__layer__6 { transform: translateZ(0px) scale(1); } 
+
+
+
+/* Main Stuff */
+
+header h1 {
+  font-size: 45px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 38px;
+  letter-spacing: 25px;
+}
+h2 {
+  color: white;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+}
+h3 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+p {
+  color: white;
+}
+ul {
+  list-style: none;
+}
+header {
+  background-color: black;
+}
+header h2 {
+  color: #C7DA11;
+}
+header p {
+  text-align: center;
+}
+
+
+
+
+/* Skills & Tools section */
+
+.skills {
+  background-color: #005766;
+  position:relative;
+  margin-top: 680px;
+  z-index: 1;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0px auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 1120px;
+}
+
+.progress-bar {
+  background-image: none;
+    background-color: white;
+  }
+.progress {
+  background-color: #008274;
+} 
+.one-skill {
+  min-width: 50%;
+}
+.skills li p {
+  display: inline;
+}
+li img {
+  float: left;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.skill-row {
+  margin-bottom: 20px;
+}
+
+/* Expereince section */
+
+.experience {
+  background-color: #CA291A;
+  position:relative;
+   z-index: 1;
+
+}
+
+.experience p {
+  color: #740B08;
+  margin-left: 60px;
+}
+.experience li{
+  margin-bottom: 35px;
+}
+.experience .title {
+  color: white;
+}
+.experience .title strong {
+  text-transform: uppercase;
+}
+hr {
+  color: white;
+  margin-bottom: 45px;
+  }
+.timeline {
+  display:table;
+    max-width:650px;
+} 
+.SF, .Munich{
+    display:table-cell;
+    width:95%;
+    padding-right: 40px;
+}
+.SF-graphic {
+  display:table-cell;
+  width:5%;
+  background:url("../images/SF.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding:0px;
+}
+.Munich-graphic {
+  display:table-cell;
+  width:5%;
+  background:url("../images/Munich.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding:0px;
+}
+/* Education section */
+
+.education {
+  background-color: #7ACBBF;
+  position:relative;
+   z-index: 1;
+}
+.education p {
+  color: #007F81;
+  margin-left: 60px;
+}
+.education .title {
+  color: white;
+}
+.education .title strong {
+  text-transform: uppercase;
+}
+.education li{
+  margin-bottom: 35px;
+}
+
+/*@media screen and (min-height: 450px) and (max-height: 507px) {
+  .skills {
+  margin-top: 450px;
+  }
+}
+
+@media screen and (min-height: 250px) and (max-height: 450px) {
+  .skills {
+  margin-top: 350px;
+  }
+}
+
+@media screen and (min-height: 607px) and (max-height: 707px) {
+  .skills {
+  margin-top: 550px;
+  }
+}
+
+@media screen and (min-height: 507px) and (max-height: 607px) {
+  .skills {
+  margin-top: 450px;
+  }
+}*/
+
+@media screen and (min-height: 407px) and (max-height: 600px) {
+  .skills {
+  margin-top: 500px;
+  }
+
+  @media screen and (min-width: 700px) {
+    .container {
+  max-width: 450px;
+  }

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8">
@@ -6,296 +6,269 @@
     <title>Anna Hurd</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
 
-  <body>
-    
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <section>
-        <div class="container-fluid">
+  <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      </div>  
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
           <div class="navbar-inner">
             <ul class="nav navbar-nav">
-              <li><a class="page-scroll" href="">Top</a></li>
-              <li><a class="page-scroll" href="#skills">Skills &amp; Tools</a></li>
-              <li><a class="page-scroll" href="#experience">Experience</a></li>
-              <li><a class="page-scroll" href="#education">Education</a></li>
-              <li><a class="page-scroll" href="#contact">Contact</a></li>
+              <li><a class="page-scroll" data-path="landscape">Top</a></li>
+              <li><a class="page-scroll" data-path="skills">Skills &amp; Tools</a></li>
+              <li><a class="page-scroll" data-path="experience">Experience</a></li>
+              <li><a class="page-scroll" data-path="education">Education</a></li>
+              <li><a class="page-scroll" data-path="contact">Contact</a></li>
             </ul>
           </div>
         </div>
-      </section>
-    </nav>
-    
+      </div>
+    </div>
+  </nav>
 
-      <div class="parallax">
-
+  <div class="parallax" id="my-parallax-container" data-spy="scroll" data-target=".navbar">
+    <section class="landscape" id="landscape">
+      <div class="keyart" id="nonparallax">
+      </div>
       <div class="background">
-        <img src="images/logo.png"></div>
-        
-          <div class="parallax__layer parallax__layer__0">
-            <img src="images/Layers1.png" class="layer"/>
-          </div>
-          <div class="parallax__layer parallax__layer__2">
-            <img src="images/Layers2.png" class="layer"/>
-          </div>
-          <div class="parallax__layer parallax__layer__3">
-            <img src="images/Layers3.png" class="layer"/>
-          </div>
-          <div class="parallax__layer parallax__layer__4">
-            <img src="images/Layers4.png" class="layer"/>
-          </div>
-          <div class="parallax__layer parallax__layer__5">
-            <img src="images/Layers5.png" class="layer"/>
-          </div>
-          <div class="parallax__layer parallax__layer__6">
-            <img src="images/Layers6.png" class="layer"/>
-          
-          <div class="parallax__cover"></div></div>
-    
+        <img src="images/logo.png">
+      </div>
+      <div class="parallax__layer parallax__layer__0">
+        <img src="images/Layers1.png" class="layer"/>
+      </div>
+      <div class="parallax__layer parallax__layer__2">
+        <img src="images/Layers2.png" class="layer"/>
+      </div>
+      <div class="parallax__layer parallax__layer__3">
+        <img src="images/Layers3.png" class="layer"/>
+      </div>
+      <div class="parallax__layer parallax__layer__4">
+        <img src="images/Layers4.png" class="layer"/>
+      </div>
+      <div class="parallax__layer parallax__layer__5">
+        <img src="images/Layers5.png" class="layer"/>
+      </div>
+      <div class="parallax__layer parallax__layer__6">
+        <img src="images/Layers6.png" class="layer"/>  
+        <div class="parallax__cover">
+        </div>
+      </div>
+    </section>
 
 
-        <section class="skills" id="skills">
-          <div class="skills-container">
-          <div class="container">
-            <h1>Skills &amp; Tools</h1>
-            <ul>
-              <div class="row skill-row">
-                <div class="col-lg-2 col-sm-1 one-skill">
-                  <li><img src="images/photoshop.png" alt="Photoshop-Skills">
-                    <p>Photoshop</p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:100%"></div>
-                    </div>  
-                  </li>
-                </div>
+    <section class="skills" id="skills">
+      <div class="container">
+        <h1>Skills &amp; Tools</h1>
+        <ul>
+          <div class="row skill-row">
+            <div class="col-lg-2 col-sm-1 one-skill">
+              <li><img src="images/photoshop.png" alt="Photoshop-Skills">
+                <p>Photoshop</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width:100%"></div>
+                </div>  
+              </li>
+            </div>
+            <div class="col-lg-2 col-sm-1 one-skill">
+              <li><img src="images/sketch.png" alt="Sketch-Skills">
+                <p>Sketch</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width:65%"></div>
+                </div>  
+              </li>
+            </div>
+          </div>   
 
-                <div class="col-lg-2 col-sm-1 one-skill">
-                  <li><img src="images/sketch.png" alt="Sketch-Skills">
-                    <p>Sketch</p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:65%"> </div>
-                    </div>  
-                  </li>
-                </div>
-            </div>   
-
-            <div class="row skill-row">
-              <div class="col-lg-2 col-sm-1 one-skill">
-                <li><img src="images/illustrator.png" alt="Illustrator-Skills">
-                  <p>Illustrator</p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width:90%"></div>
-                  </div>  
-                </li>
-              </div>  
-
-              <div class="col-lg-2 col-sm-1 one-skill">  
-                <li><img src="images/wordpress.png" alt="Wordpress-Skills">
-                  <p>Wordpress</p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width:80%"></div>
-                  </div>  
-                </li>
-              </div>
-            </div> 
-
-            <div class="row skill-row">
-              <div class="col-lg-2 col-sm-1 one-skill">  
-                <li><img src="images/inDesign.png" alt="InDesign-Skills">
-                  <p>InDesign</p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:100%"></div>
-                    </div>  
-                </li>
-              </div>
-
-              <div class="col-lg-2 col-sm-1 one-skill">
-                <li><img src="images/html5.png" alt="html5-Skills">
-                  <p>html 5</p>
-                  <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:85%"></div>
-                  </div>  
-                </li>
-              </div>
+          <div class="row skill-row">
+            <div class="col-lg-2 col-sm-1 one-skill">
+              <li><img src="images/illustrator.png" alt="Illustrator-Skills">
+                <p>Illustrator</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width:90%"></div>
+                </div>  
+              </li>
             </div>  
+            <div class="col-lg-2 col-sm-1 one-skill">  
+              <li><img src="images/wordpress.png" alt="Wordpress-Skills">
+                <p>Wordpress</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width:80%"></div>
+                </div>  
+              </li>
+            </div>
+          </div> 
 
-            <div class="row skill-row">
-              <div class="col-lg-2 col-sm-1 one-skill">
-                <li><img src="images/afterEffects.png" alt="AfterEffects-Skills">
-                  <p>After Effects</p>
+          <div class="row skill-row">
+            <div class="col-lg-2 col-sm-1 one-skill">  
+              <li><img src="images/inDesign.png" alt="InDesign-Skills">
+                <p>InDesign</p>
                   <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%"></div>
+                    <div class="progress-bar" role="progressbar" style="width:100%"></div>
                   </div>  
-                </li>
-              </div>
+              </li>
+            </div>
+            <div class="col-lg-2 col-sm-1 one-skill">
+              <li><img src="images/html5.png" alt="html5-Skills">
+                <p>html 5</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:85%"></div>
+                </div>  
+              </li>
+            </div>
+          </div>  
+
+          <div class="row skill-row">
+            <div class="col-lg-2 col-sm-1 one-skill">
+              <li><img src="images/afterEffects.png" alt="AfterEffects-Skills">
+                <p>After Effects</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:70%"></div>
+                </div>  
+              </li>
+            </div>
+            <div class="col-lg-2 col-sm-1 one-skill">  
+              <li><img src="images/css3.png" alt="css3-Skills">
+                <p>css 3</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:70%"></div>
+                </div>  
+              </li>
+            </div>
+          </div>
+
+          <div class="row skill-row">
+            <div class="col-lg-2 col-sm-1 one-skill">
+              <li><img src="images/premiere.png" alt="Premiere-Skills">
+                  <p>Premiere</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:65%">  </div>
+                </div>  
+              </li>
+            </div>
               
-              <div class="col-lg-2 col-sm-1 one-skill">  
-                <li><img src="images/css3.png" alt="css3-Skills">
-                  <p>css 3</p>
-                  <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%"></div>
-                  </div>  
-                </li>
-              </div>
+            <div class="col-lg-2 col-sm-1 one-skill">  
+              <li><img src="images/javaScript.png" alt="javascript-Skills">
+                <p>javascript</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width:50%">  </div>
+                </div>  
+              </li>
             </div>
+          </div>    
 
-            <div class="row skill-row">
-              <div class="col-lg-2 col-sm-1 one-skill">
-                <li><img src="images/premiere.png" alt="Premiere-Skills">
-                    <p>Premiere</p>
-                  <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:65%">  </div>
-                  </div>  
-                </li>
-              </div>
-              
-              <div class="col-lg-2 col-sm-1 one-skill">  
-                <li><img src="images/javascript.png" alt="javascript-Skills">
-                  <p>javascript</p>
-                  <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:50%">  </div>
-                  </div>  
-                </li>
-              </div>
-            </div>    
-          </ul>
+        </ul>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <h1>Experience</h1>
+        <div class="timeline">
+          <div class="SF">
+            <ul>
+              <li><img src="images/2011-now.png" alt="Timeframe">
+                <p class="title">Project Manager, Designer, Developer, Art &amp; Creative Director <br>
+                <strong>Freelance</strong></p>
+                <p>Working as a freelance designer, I produce and manage entire projects for web and print. I work directly with the client, leading the design and production process and making sure all deliverables exeed their expectations – on time and within their budget. To arrive at the best possible product, I colaborate with and manage developers, photographers and printers.
+                </p>  
+              </li>
+              <li><img src="images/2011-now.png" alt="Timeframe">
+                <p class="title">Sr. Designer<br>
+                <strong>Jewish Community Center of San Francisco</strong></p>
+                <p>This position started as a simple project-based freelance gig and evolved into a part-time position as an in-house designer. It’s a fast-paced environment with many different stakeholders and strict deadlines. Being part of a large marketing team, I colaborate with each team member as well as other departments. 
+                </p>  
+              </li>
+              <li><img src="images/2007-2011.png" alt="Timeframe">
+                <p class="title">Art Director<br>
+                <strong>Wessling creative Group</strong></p>
+                <p>As the art director for this boutique branding and design firm I led many highly creative projects. I learned to work with existing brand guidelines and also to create a new brand from scratch. Executing many different brand strategies resolved in various projects in print &amp; web design, advertising, illustration, animation and video editing. 
+                </p>  
+              </li>
+            </ul>
+          </div>  
+          <div class="SF-graphic">
           </div>
+        </div>
+        <hr>
+        <div class="timeline">
+          <div class="Munich">
+            <ul>
+              <li><img src="images/2005-2011.png" alt="Timeframe">
+                <p class="title">Designer, Art Director<br>
+                <strong>First Ad</strong></p>
+                <p>The clients of this advertising agency ranged from small, local businesses to large international companies. I worked closely with the creative director on every level of each project – from establishing strategies, executing the design to delivering final production files. Projects included branding, print ads, brochure and catalogue layout, POS campaigns and direkt marketing.
+                </p>  
+              </li>
+              <li><img src="images/2002.png" alt="Timeframe">
+                <p class="title">Intern<br>
+                <strong>Agentur 2</strong></p>
+                <p>At this communications design agency I confirmed my love for design and established a strong passion to become part of this field. I was able to witness a team of high-level creatives and help out each member on rotation. I got my first training in Photoshop and Illustrator, created board presentations and built elaborate mock-ups for packaging &amp; print design projects.
+                </p>  
+              </li>
+            </ul>
+          </div>  
+          <div class="Munich-graphic">
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="container">
+        <h1>Education</h1>
+        <ul>
+          <li><img src="images/2017.png" alt="Timeframe">
+            <p class="title">General Assembly<br>
+            <strong>Front End Development</strong></p>
+            <p>Understand how a skillful mix of programming and layout powers the web we see – and how teams collaborate to create it. We covered HTML5, CSS3, Bootstrap, responsive layout, JavaScript, jQuery, GitHub and much more.
+            </p>  
+          </li>
+          <li><img src="images/2016.png" alt="Timeframe">
+            <p class="title">General Assembly<br>
+            <strong>USER EXPERIENCE DESIGN</strong></p>
+            <p>In this 6-weeks circuit we learned to master the mindful decision-making skills you need to design online experiences that captivate audiences and stand out from the competition. We covered User Research &amp; Testing, Developing Design Strategy, Wireframing &amp; Prototyping, Usability Testing &amp; Optimization and much more.
+            </p>  
+          </li>
+          <li><img src="images/2002-2005.png" alt="Timeframe">
+            <p class="title">Akademie U5<br>
+            <strong>Communication Design BA</strong></p>
+            <p>Winner of competition for the Bavarian Broadcast campaign “Classical Music for Teens”<br>Winner of the “Young Directors Project” for producing and editing a TV spot
+            </p>  
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Please give me a call! or drop me a line</p>  
+        <p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> +1 415.573.5563</p>
+        <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> anna@singerdesign.org</p>
+        <p><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> www.instagram.com/singer.design/</p>
+      </div>
+    </section>
+  </div>
 
 
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-scrollspy.js"></script>
 
-        <section class="experience" id="experience">
-          <div class="container">
-            <h1>Experience</h1>
-            <div class="timeline">
-              <div class="SF">
-                <ul>
-                  <li><img src="images/2011-now.png" alt="Timeframe">
-                    <p class="title">Project Manager, Designer, Developer, Art &amp; Creative Director <br>
-                    <strong>Freelance</strong></p>
-                    <p>Working as a freelance designer, I produce and manage entire projects for web and print. I work directly with the client, leading the design and production process and making sure all deliverables exeed their expectations – on time and within their budget. To arrive at the best possible product, I colaborate with and manage developers, photographers and printers.
-                    </p>  
-                  </li>
-
-                  <li><img src="images/2011-now.png" alt="Timeframe">
-                    <p class="title">Sr. Designer<br>
-                    <strong>Jewish Community Center of San Francisco</strong></p>
-                    <p>This position started as a simple project-based freelance gig and evolved into a part-time position as an in-house designer. It’s a fast-paced environment with many different stakeholders and strict deadlines. Being part of a large marketing team, I colaborate with each team member as well as other departments. 
-                    </p>  
-                  </li>
-
-                  <li><img src="images/2007-2011.png" alt="Timeframe">
-                    <p class="title">Art Director<br>
-                    <strong>Wessling creative Group</strong></p>
-                    <p>As the art director for this boutique branding and design firm I led many highly creative projects. I learned to work with existing brand guidelines and also to create a new brand from scratch. Executing many different brand strategies resolved in various projects in print &amp; web design, advertising, illustration, animation and video editing. 
-                    </p>  
-                  </li>
-                </ul>
-              </div>  
-                <div class="SF-graphic">
-                </div>
-            </div>
-            <hr>
-            <div class="timeline">
-              <div class="Munich">
-                <ul>
-                  <li><img src="images/2005-2011.png" alt="Timeframe">
-                    <p class="title">Designer, Art Director<br>
-                    <strong>First Ad</strong></p>
-                    <p>The clients of this advertising agency ranged from small, local businesses to large international companies. I worked closely with the creative director on every level of each project – from establishing strategies, executing the design to delivering final production files. Projects included branding, print ads, brochure and catalogue layout, POS campaigns and direkt marketing.
-                    </p>  
-                  </li>
-
-                  <li><img src="images/2002.png" alt="Timeframe">
-                    <p class="title">Intern<br>
-                    <strong>Agentur 2</strong></p>
-                    <p>At this communications design agency I confirmed my love for design and established a strong passion to become part of this field. I was able to witness a team of high-level creatives and help out each member on rotation. I got my first training in Photoshop and Illustrator, created board presentations and built elaborate mock-ups for packaging &amp; print design projects.
-                    </p>  
-                  </li>
-                </ul>
-              </div>  
-              <div class="Munich-graphic">
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        <section class="education" id="education">
-            <div class="container">
-              <h1>Education</h1>
-                 <ul>
-                  <li><img src="images/2017.png" alt="Timeframe">
-                    <p class="title">General Assembly<br>
-                    <strong>Front End Development</strong></p>
-                    <p>Understand how a skillful mix of programming and layout powers the web we see – and how teams collaborate to create it. We covered HTML5, CSS3, Bootstrap, responsive layout, JavaScript, jQuery, GitHub and much more.
-                    </p>  
-                  </li>
-
-                  <li><img src="images/2016.png" alt="Timeframe">
-                    <p class="title">General Assembly<br>
-                    <strong>USER EXPERIENCE DESIGN</strong></p>
-                    <p>In this 6-weeks circuit we learned to master the mindful decision-making skills you need to design online experiences that captivate audiences and stand out from the competition. We covered User Research &amp; Testing, Developing Design Strategy, Wireframing &amp; Prototyping, Usability Testing &amp; Optimization and much more.
-                    </p>  
-                  </li>
-
-                  <li><img src="images/2002-2005.png" alt="Timeframe">
-                    <p class="title">Akademie U5<br>
-                    <strong>Communication Design BA</strong></p>
-                    <p>Winner of competition for the Bavarian Broadcast campaign “Classical Music for Teens”<br>Winner of the “Young Directors Project” for producing and editing a TV spot
-                    </p>  
-                  </li>
-                </ul>
-              </div>
-            </section>
-
-
-            <section class="contact" id="contact">
-              <div class="container">
-                <h1>Contact</h1>
-                <p>Please give me a call! or drop me a line</p>  
-              </div>
-            </section>
-
-
-
-   </div>
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-scrollspy.js"></script>
-
-
-<script>
-$(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
-});
-
-</script>
-
-
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-
-        </script>
-    </body>
+  </body>
 </html>
